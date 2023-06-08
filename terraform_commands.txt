@@ -1,0 +1,21 @@
+# terraform init - to initialize a working directory containing terraform configuration files
+
+# terraform plan - creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure
+
+# terraform apply - performs a plan just like terraform plan does, but then actually carries out the planned changes to each resource using the relevant infrastructure provider's API
+
+# terraform destroy - The terraform destroy command is used to destroy the project infrastructure 
+
+# terraform -h - To print help options
+
+# terraform -h init/validate/plan/apply/destroy/console
+
+To list of the resources in your project's state
+# terraform state list
+
+To Inspect the current state
+# terraform show
+
+To validate your configuration
+# terraform validate
+
