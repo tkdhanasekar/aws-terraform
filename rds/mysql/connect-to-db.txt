@@ -1,0 +1,8 @@
+connect to remote AWS RDS mysql
+
+
+apt-get install mariadb-client
+mysql --version
+
+mysql -h <end point url> -P 3306 -u <user> -p
+

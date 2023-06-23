@@ -1,0 +1,8 @@
+How to connect to remote postgresql db
+
+in local machine install postgresql
+$ sudo apt install postgresql
+$ sudo -i -u postgres
+
+access
+$ psql -h <end point url> --port=5432 --username=myrdsuser --password --dbname=mydb
