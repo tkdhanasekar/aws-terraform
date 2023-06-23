@@ -6,3 +6,14 @@ $ sudo -i -u postgres
 
 access
 $ psql -h <end point url> --port=5432 --username=myrdsuser --password --dbname=mydb
+
+to list databases
+mydb=> \l
+
+to create databases
+CREATE DATABASE devopsdb;
+
+mydb=> \l
+
+q
+
