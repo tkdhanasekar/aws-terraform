@@ -3,7 +3,7 @@ Installation method1:
 # apt update
 download the binary from
 https://developer.hashicorp.com/terraform/downloads
-# wget https://releases.hashicorp.com/terraform/1.4.6/terraform_1.4.6_linux_amd64.zip
+# wget https://releases.hashicorp.com/terraform/1.6.3/terraform_1.6.3_linux_amd64.zip
 # unzip terraform_1.4.6_linux_amd64.zip
 # mv terraform /usr/local/bin/
 # terraform version
