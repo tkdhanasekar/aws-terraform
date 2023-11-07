@@ -9,17 +9,17 @@ terraform {
 
 provider "docker" {}
 
-resource "docker_image" "apache" {
-  name         = "dnadna/apache:latest"
+resource "docker_image" "bolt" {
+  name         = "dnadna/bolt:latest"
   keep_locally = false
 }
 
-resource "docker_container" "apache" {
-  image = docker_image.apache.image_id
-  name  = "apache"
+resource "docker_container" "bolt" {
+  image = docker_image.bolt.image_id
+  name  = "bolt"
   ports {
     internal = 80
-    external = 8000
+    external = 8085
   }
 }
 
